@@ -3,9 +3,9 @@ public class Dupnumbers {
 	public static void main(String[] args)
 	{
 		int[]num= {2,5,7,7,5,9,2,3};
-		for (int i = 0; i < num.length-1; i++)
+		for (int i = 0; i <8 ; i++)
 		{
-			for (int j = i+1; j <= num.length-1; j++) {
+			for (int j = i+1; j <8; j++) {
 				if (num[i]==num[j])
 				{
 					System.out.println("Duplicate numbers are: "+num[i]);
